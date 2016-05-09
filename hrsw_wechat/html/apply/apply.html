@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"  manifest="../../demo.appcache">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>申请试用</title>
+	<link rel="stylesheet" href="../../css/apply/apply.css">
+	<script src="../../js/jquery-1.8.3.min.js"></script>
+	<script src="../../js/apply/des.js"></script>
+	<script src="../../js/main.js"></script>
+	<script src="../../js/apply/apply.js"></script>
+</head>
+<body>
+	<header class="probation">
+		<!--<div class="head_title">-->
+			<!--<span class="cross">×</span>
+			<span class="head_title_info">申请试用流程</span>-->
+		<!--</div>-->
+		<div class="tips_pic">
+			<a href="javascript:void(0);">
+				<img src="../../img/apply/application_process.png" alt="">
+			</a>
+		</div>
+	</header>
+	<section class="form_list">
+		<form>
+			<table border="1" class="out_table">
+				<tr>
+					<td class="left_td">
+						<span class="red_mark">*</span>
+						产品类型：
+					</td>
+					<td class="right_td">
+						<table id="inner_table" name="type">
+							<tr>
+								<td class="inner-td">
+									<label for="1">
+										<input type="radio" name="productType" value="1" id="1"> 在线考试系统
+									</label>
+								</td>
+								<td class="inner-td">
+									<label for="2">
+										<input type="radio" name="productType" value="2" id="2"> 在线学习系统
+									</label>
+								</td>
+								
+							</tr>
+							<tr>
+								<td class="inner-td">
+									<label for="3">
+										<input type="radio" name="productType" value="3" id="3"> 移动学习系统
+									</label>
+								</td>
+								<td class="inner-td">
+									<label for="4">
+										<input type="radio" name="productType" value="4" id="4"> 课件录制系统
+									</label>
+								</td>
+								
+							</tr>
+							<tr>
+								<td class="inner-td">
+									<label for="5">
+										<input type="radio" name="productType" value="5" id="5"> 人才测评系统
+									</label>
+								</td>
+								<td class="inner-td">
+									<label for="6">
+										<input type="radio" name="productType" value="6" id="6"> 校园招聘系统
+									</label>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">
+						<span class="red_mark">*</span>
+						姓名：
+					</td>
+					<td class="right_td">
+						<input name="username" type="text" class="right_input" />
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">性别：</td>
+					<td class="right_td">
+						<label for="male">
+							<input type="radio" value="1" name="sex" id="male">先生
+						</label>
+						<label for="female">
+							<input type="radio" value="2" name="sex" id="female">女士
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">单位所属省份：</td>
+					<td class="right_td">
+						<select name="province" id="" >
+							<option value="">请选择</option>
+							<option name="province" value="1">北京市</option>
+							<option name="province" value="2">天津市</option>
+							<option name="province" value="3">上海市</option>
+							<option name="province" value="4">重庆市</option>
+							<option name="province" value="5">河北省</option>
+							<option name="province" value="6">河南省</option>
+							<option name="province" value="7">云南省</option>
+							<option name="province" value="8">辽宁省</option>
+							<option name="province" value="9">黑龙江省</option>
+							<option name="province" value="10">湖南省</option>
+							<option name="province" value="11">安徽省</option>
+							<option name="province" value="12">山东省</option>
+							<option name="province" value="13">新疆维吾尔</option>
+							<option name="province" value="14">江苏省</option>
+							<option name="province" value="15">浙江省</option>
+							<option name="province" value="16">江西省</option>
+							<option name="province" value="17">湖北省</option>
+							<option name="province" value="18">广西壮族</option>
+							<option name="province" value="19">甘肃省</option>
+							<option name="province" value="20">山西省</option>
+							<option name="province" value="21">内蒙古</option>
+							<option name="province" value="22">陕西省</option>
+							<option name="province" value="23">吉林省</option>
+							<option name="province" value="24">福建省</option>
+							<option name="province" value="25">贵州省</option>
+							<option name="province" value="26">广东省</option>
+							<option name="province" value="27">青海省</option>
+							<option name="province" value="28">西藏</option>
+							<option name="province" value="29">四川省</option>
+							<option name="province" value="30">宁夏回族</option>
+							<option name="province" value="31">海南省</option>
+							<option name="province" value="32">台湾省</option>
+							<option name="province" value="33">香港特别行政区</option>
+							<option name="province" value="34">澳门特别行政区</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">单位所属行业：</td>
+					<td class="right_td">
+						<select name="industry" id="">
+							<option value="" name="">请选择</option>
+							<option value="1" name="industry">能源行业</option>
+							<option value="2" name="industry">公检法商</option>
+							<option value="3" name="industry">金融行业</option>
+							<option value="4" name="industry">教育行业</option>
+							<option value="5" name="industry">政府军队</option>
+							<option value="6" name="industry">交通运输</option>
+							<option value="7" name="industry">烟草国地税</option>
+							<option value="8" name="industry">服务行业</option>
+							<option value="9" name="industry">通信行业</option>
+							<option value="10" name="industry">传媒出版</option>
+							<option value="11" name="industry">其他</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">
+						<span class="red_mark">*</span>
+						单位名称：
+					</td>
+					<td class="right_td">
+						<input type="text" class="right_input" name="company">
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">单位地址：</td>
+					<td class="right_td">
+						<input type="text" class="right_input address">
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">
+						<span class="red_mark">*</span>
+						联系方式：
+					</td>
+					<td class="right_td">
+						<input name="iphone" type="text"  class="right_input">
+					</td>
+				</tr>
+				<tr>
+					<td class="left_td">
+						<span class="red_mark">*</span>
+						电子邮箱：
+					</td>
+					<td class="right_td">
+						<input type="email" class="right_input">
+					</td>
+				</tr>
+			</table>
+			<div class="submit">
+				<input type="submit" value="提交" id="submit" onclick="javascript:return false" >
+				<input type="button" value="取消" id="cancel">
+			</div>
+		</form>
+	</section>
+	<section class="dialog_group">
+		<div class="cover"></div>
+		<div class="dialog dialog1">
+			<p class="tips"></p>
+			<p class="ok ok1">确定</p>
+		</div>
+		<div class="dialog dialog2">
+			<p class="tips"></p>
+			<p class="ok ok2">确定</p>
+		</div>
+	</section>		
+</body>
+</html>

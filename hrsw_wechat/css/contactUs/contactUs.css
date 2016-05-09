@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	border-spacing:0;
+	outline: none;
+}
+html,body{
+	width: 100%;
+}
+body{
+	font-size: 100px;
+	font-family:"微软雅黑";
+	background-color: #fff;
+}
+header{
+	width:100%;
+	font-size: 0;
+}
+header img{
+	width:100%;
+}
+.outSection,.cooperation,.cooperationMode,.cooperationProcess,.contact{
+	width:96%;
+	margin:0 auto;
+}
+h3{
+	font-size:0.14rem;
+	font-weight: normal;
+	height:0.23rem;
+	line-height:0.23rem;
+	margin:0.12rem auto;
+	padding-bottom:0.03rem;
+	border-bottom:1px solid #db3921;
+}
+h4{
+	font-size: 0.11rem;
+	font-weight: normal;
+	height:0.2rem;
+	line-height:0.2rem;
+	text-indent: 0.5em;
+	margin:0.05rem auto;
+}
+h3 span{
+	color:#db3921;
+}
+p{
+	font-size: 0.11rem;
+	text-indent: 2em;
+	color:#6d6d6d;
+	line-height: 0.18rem;
+}
+.cooperationProcess img{
+	width:100%;
+}
+.contact{
+	margin-bottom: 0.2rem;
+}
+#allmap{
+	width:100%;
+	height:3.5rem;
+	border:1px solid black;
+	margin:0 auto;
+}
+footer{
+	width:100%;
+	font-size:0px;
+	margin:0;
+	padding:0;
+}
+footer img{
+	width:100%;
+}

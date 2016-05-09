@@ -1,0 +1,89 @@
+/*公用样式*/
+*{
+	margin:0;
+	padding:0;
+	border-spacing:0;
+	outline: none;
+}
+html,body{
+	width: 100%;
+	height:100%;
+}
+body{
+	font-size: 100px;
+	font-family:"微软雅黑";
+}
+section{
+	font-size: 0;
+	height:100%;
+}
+/*模块通用样式*/
+.box{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow: hidden;
+}
+.box1{
+	background-color: #ffe173;
+}
+.box2{
+	background-color: #699b98;
+}
+.box3{
+	background-color: #ff5965;	
+}
+.box img{
+	position:absolute;
+}
+.box .txt{
+	display: inline-block;
+	position:relative;
+	z-index: 10;
+	margin:0.1rem;
+	margin-left:0.4rem;
+	margin-top:8%;
+	width:75%;
+}
+h2{
+	font-size:0.14rem;
+	color:white;
+	margin:0.1rem auto;
+	-webkit-text-size-adjust:none;
+}
+ul{
+	display: inline-block;
+}
+ul li{
+	font-size: 0.12rem;
+	color:white;
+	-webkit-text-size-adjust:none;
+	line-height:0.2rem;
+}
+/*模块一*/
+.box1 img{
+	width:3rem;
+	right:0.1rem;
+	bottom:6%;
+}
+.box1 .txt{
+	/*width:80%;*/
+}
+/*模块二*/
+.box2 img{
+	width:2.5rem;
+	right:0.35rem;	
+	bottom:6%;
+}
+.box2 .txt{
+	/*width:80%;*/
+}
+/*模块三*/
+.box3 img{
+	width:3rem;
+	right:0.1rem;
+	bottom:6%;
+}
+.box3 .txt{
+	/*width:80%;*/
+}

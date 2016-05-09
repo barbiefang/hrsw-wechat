@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+	border-spacing:0;
+	outline: none;
+}
+html,body{
+	width: 100%;
+	height:100%;
+}
+body{
+	font-size: 0;
+	font-family:"微软雅黑";
+}
+.bgImg{
+	width:100%;
+	height:100%;
+}
+a{
+	display: inline-block;
+	position:absolute;
+	width:26%;
+	height:17%;
+	border-radius: 50%;
+	-webkit-tap-highlight-color:none;
+	outline: none;
+	border:none;
+}
+.box1{
+	left:22%;
+	top:17%;
+}
+.box2{
+	left:52%;
+	top:17%;
+}
+.box3{
+	left:7%;
+	top:33%;
+}
+.box4{
+	left:66%;
+	top:33%;
+}
+.box5{
+	left:22%;
+	top:50%;
+}
+.box6{
+	left:51%;
+	top:50%;
+}
+.box7{
+	left:37%;
+	top:33%;
+}

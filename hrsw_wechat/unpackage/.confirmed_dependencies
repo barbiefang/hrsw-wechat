@@ -1,0 +1,29 @@
+{
+	"index.html": {
+		"resources": [
+			"img/index/box-7.jpg",
+			"js/main.js",
+			"js/jquery-1.8.3.min.js",
+			"html/apply/apply.html",
+			"img/index/box-5.jpg",
+			"img/index/box-6.jpg",
+			"img/index/applogo.jpg",
+			"img/index/box-1.jpg",
+			"css/index/index.css",
+			"img/index/box-4.jpg",
+			"img/index/box-3.jpg",
+			"img/index/box-2.jpg"
+		],
+		"refer": [
+			"html/apply/apply.html"
+		]
+	},
+	"html/apply/apply.html": {
+		"resources": [
+			"img/apply/application_process.png",
+			"js/apply/des.js",
+			"js/apply/apply.js",
+			"css/apply/apply.css"
+		]
+	}
+}

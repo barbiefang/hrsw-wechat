@@ -1,0 +1,124 @@
+/*公用样式*/
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width: 100%;
+	height:100%;
+}
+body{
+	font-size: 100px;
+	font-family:"微软雅黑";
+	background-color: #000311;
+}
+
+/*头部logo图片*/
+
+.index{
+	width: 98%;
+	height:38%;
+	margin:1% auto;
+}
+.index img{
+	width: 100%;
+	height:100%;
+}
+
+/*七个模块总体样式*/
+
+.container{
+	width: 98%;
+	margin:1% auto;
+	height:60%;
+	overflow: hidden;
+}
+.index_sec{
+	height:30%;
+	width: 98%;
+	margin:1% auto;
+}
+.index_sec .box2,.index_sec .box3,.index_sec .box5,.index_sec .box6,.index_sec .box7{
+	width: 31%;
+	height:100%;
+	float:left;
+	margin:1%;
+	overflow: hidden;
+}
+.index_sec .box1,.index_sec .box4{
+	width: 65%;
+	height:100%;
+	float:left;
+	margin:1%;
+	overflow: hidden;
+}
+.index_sec3{
+	margin-bottom: 5%;
+}
+
+/*模块一*/
+
+.box a{
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+.index_sec .box1{
+	background-color: #9d0075;
+}
+.box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box6 img,.box7 img{
+	width: 100%;
+	height:100%;
+	display: inline-block;
+	-webkit-tap-highlight-color:none;
+	outline: none;
+	border:none;
+
+}
+
+/*模块二*/
+
+.index_sec .box2{
+	background-color: #cc5e00;	
+	/*overflow: hidden;
+	text-align: center;
+	color:white;*/
+}
+
+/*模块三*/
+
+.index_sec .box3{
+	background-color: #92b304;
+	text-align: center;
+}
+
+/*模块四*/
+
+.index_sec .box4{
+	background-color: #004290;
+	color:white;
+}
+
+/*模块五*/
+
+.index_sec .box5{
+	background-color: #008b92;
+	text-align: center;
+}
+
+/*模块六*/
+
+.index_sec .box6{
+	background-color: #109333;
+	text-align: center;
+	width:32%;
+}
+
+/*模块七*/
+
+.index_sec .box7{
+	background-color: #6d00c1;
+	text-align: center;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" manifest="demo.appcache">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>华瑞官网</title>
+	<link rel="stylesheet" href="css/index/index.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<script>
+		$(function (){
+			var height = $(window).height();
+			var width = $(window).width();
+			if((height == 460 || height ==480) && width ==320){
+				$(".box img").css({"position":"relative","bottom":"24%"});    
+			};
+		})
+	</script>
+	<header class="index">
+		<img src="img/index/applogo.jpg" alt="">
+	</header>
+	<div class="container">
+		<section class="index_sec">
+			<div class="box1 box">
+				<a href="html/productCenter/product.html"><img src="img/index/box-1.jpg" alt=""></a>
+			</div>
+			<div class="box2 box">
+				<a href="html/apply/apply.html"><img src="img/index/box-2.jpg" alt=""></a>
+			</div>
+		</section>
+		<section class="index_sec">
+			<div class="box3 box">
+				<a href="html/cooperation/cooperation.html"><img src="img/index/box-3.jpg" alt=""></a>
+			</div>
+			<div class="box4 box">
+				<a href="html/successfulCase/successfulCase.html"><img src="img/index/box-4.jpg" alt=""></a>
+			</div>
+		</section>
+		<section class="index_sec index_sec3">
+			<div class="box5 box">
+				<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx7e785d4b2e35646a&redirect_uri=http%3A%2F%2Fqy.weixin.qq.com%2Fcgi-bin%2Fgetmasssendmsg&response_type=code&scope=snsapi_base&state=MTA5NTAyNjcyNg==&connect_redirect=1#wechat_redirect"><img src="img/index/box-5.jpg" alt=""></a>
+			</div>
+			<div class="box6 box">
+				<a href="html/aboutUs/aboutUs.html"><img src="img/index/box-6.jpg" alt=""></a>
+			</div>
+			<div class="box7 box">
+				<a href="html/contactUs/contactUs.html"><img src="img/index/box-7.jpg" alt=""></a>
+			</div>
+		</section>
+	</div>
+</body>
+	
+</html>
